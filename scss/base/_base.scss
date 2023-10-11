@@ -8,7 +8,31 @@ html {
     font-size: 62.5%;
 }
 
+
+
 body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
+    color: var(--text-color);
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    color: inherit;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    filter: var(--icon-color);
 }
